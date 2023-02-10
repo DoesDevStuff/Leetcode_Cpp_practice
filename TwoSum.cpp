@@ -50,3 +50,19 @@ class Solution
         }
 };
 */
+
+int main()
+{
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    vector<int> nums{3, 2, 4};
+    // for (int i = 0; i < nums.size(); i++)
+    //     cout << nums[i] << " ";
+    vector<int> ans = twoSum(nums, 6);
+    for (int i = 0; i < ans.size(); i++)
+    {
+        cout << ans[i] << " ";
+    }
+    return 0;
+}
+
